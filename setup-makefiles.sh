@@ -26,7 +26,7 @@ source "${HELPER}"
 setup_vendor "${DEVICE_COMMON}" "${VENDOR}" "${LINEAGE_ROOT}" true
 
 # Copyright headers and guards
-write_headers "akari xz2c akatsuki"
+write_headers "akari xz2c akatsuki akatsuki_kddi akari_kddi"
 
 # The standard common blobs
 write_makefiles "${MY_DIR}/proprietary-files.txt" true

@@ -185,7 +185,7 @@ PRODUCT_PACKAGES += \
     qns.fstab \
     sensor_json_transfer.sh \
     ueventd.qcom.rc
-    
+
     PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/config/init.tama_kddi.nfc.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.tama_kddi.nfc.rc
 
