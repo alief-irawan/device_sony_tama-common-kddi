@@ -8,7 +8,7 @@ BUILD_BROKEN_DUP_RULES := true
 
 BOARD_VENDOR := sony
 
-COMMON_PATH := device/sony/tama-common
+COMMON_PATH := device/sony/tama-common-kddi
 
 # Architecture
 TARGET_ARCH := arm64
@@ -186,4 +186,4 @@ WIFI_HIDL_FEATURE_DUAL_INTERFACE := true
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Inherit from the proprietary version
--include vendor/sony/tama-common/BoardConfigVendor.mk
+-include vendor/sony/tama-common-kddi/BoardConfigVendor.mk
